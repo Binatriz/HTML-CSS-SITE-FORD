@@ -1,2 +1,25 @@
 @import url(style.css);
 @import url(styleLancamento.css);
+
+.contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+h2{
+    font-weight: bold;
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+}
+.contato__formulario form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 20px;
+}
+
+label{
+    text-align: start;
+}

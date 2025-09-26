@@ -12,12 +12,16 @@
     gap: 1rem;
 }
 
+.conteudo__tabela__info input{
+    width: 2rem;
+}
+
 .conteudo__tabela__info img {
     width: auto;
     height: 1.5rem;
 }
 
-#conteudo__tabela__botao {
+.conteudo__tabela__botao {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,7 +29,7 @@
     width: 100%;
 }
 
-#conteudo__tabela__botao button {
+.conteudo__tabela__botao button {
     width: 100%;
     max-width: 15em;
     height: auto;
@@ -40,7 +44,7 @@
     transition: font-size 0.2s ease, background-color 0.2s ease;
 }
 
-#conteudo__tabela__botao button:hover {
+.conteudo__tabela__botao button:hover {
     background-color: #0f1f42;
     font-size: 1.1em;
 }
