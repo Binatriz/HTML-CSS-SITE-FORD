@@ -1,25 +1,64 @@
 @import url(style.css);
 @import url(styleLancamento.css);
 
-.contato{
+.contato {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     padding-top: 2rem;
 }
-h2{
+
+.contato img {
+    padding-top: 2%;
+}
+
+h2 {
     font-weight: bold;
     font-size: 2rem;
     padding-bottom: 0.5rem;
 }
-.contato__formulario form{
+
+.contato__formulario form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
-    font-size: 20px;
+    font-size: 2rem;
 }
 
-label{
+input {
+    border-radius: 0.5rem;
+    width: 20rem;
+    height: 2rem;
+}
+
+select {
+    border-radius: 0.5rem;
+    width: 20rem;
+    height: 2rem;
+}
+
+#contato__formulario__mensagem {
+    height: 15rem;
     text-align: start;
+}
+
+.contato__formulario__botao {
+    display: flex;
+    justify-content: end;
+
+}
+
+.contato__formulario__botao button {
+    width: 10rem;
+    height: 2.5rem;
+    border: 0;
+    border-radius: 0.8rem;
+    background-color: #1351d8;
+    color: white;
+    transition: background-color 0.2s ease;
+}
+
+.contato__formulario__botao button:hover {
+    background-color: #0f1f42;
 }
