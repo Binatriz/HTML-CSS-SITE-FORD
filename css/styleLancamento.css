@@ -1,18 +1,46 @@
 @import url(style.css);
 
-.conteudo__tabela{
+.conteudo__tabela {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.conteudo__tabela__info{
+.conteudo__tabela__info {
     display: flex;
     justify-content: center;
     gap: 1rem;
 }
 
-.conteudo__tabela__info img{
+.conteudo__tabela__info img {
     width: auto;
     height: 1.5rem;
+}
+
+#conteudo__tabela__botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    width: 100%;
+}
+
+#conteudo__tabela__botao button {
+    width: 100%;
+    max-width: 15em;
+    height: auto;
+    border-radius: 0.8em;
+    padding: 0.8em;
+    border: 0;
+    text-align: center;
+    font-size: 1em;
+    background-color: #1351d8;
+    color: white;
+    box-shadow: inset 5px 5px 8px rgba(0, 0, 0, 0.3);
+    transition: font-size 0.2s ease, background-color 0.2s ease;
+}
+
+#conteudo__tabela__botao button:hover {
+    background-color: #0f1f42;
+    font-size: 1.1em;
 }
