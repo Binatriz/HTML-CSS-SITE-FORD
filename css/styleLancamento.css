@@ -1,11 +1,28 @@
 @import url(style.css);
 
+body {
+    min-height: 100%;
+}
+
+.conteudo__video {
+    width: 100%;
+    aspect-ratio: 16/9;
+    max-height: 500px;
+}
+
 .conteudo__tabela {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 100%;
-    overflow-x: auto;
+}
+
+table {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .conteudo__tabela__info {
@@ -23,12 +40,17 @@
     height: 1.5rem;
 }
 
+u {
+    color: #1351d8;
+}
+
 .conteudo__tabela__botao {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
     width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .conteudo__tabela__botao button {
@@ -48,4 +70,13 @@
 
 .conteudo__tabela__botao button:hover {
     background-color: #0f1f42;
+}
+
+@media (max-width: 1056px) {
+    .conteudo__tabela {
+        flex-direction: column;
+    }
+    table{
+        flex-direction: column;
+    }
 }
