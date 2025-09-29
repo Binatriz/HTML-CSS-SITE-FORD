@@ -1,7 +1,7 @@
 @import url(reset.css);
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Manrope:wght@200..800&display=swap');
 
-html{
+html {
     height: 100%;
 }
 
@@ -16,11 +16,9 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
     padding: 1% 0 1% 2%;
     box-shadow: 1px 1px 10px rgba(90, 90, 90, 0.5);
     align-items: center;
-    top: 0;
     width: 100%;
 }
 
@@ -84,4 +82,15 @@ body {
 
 #rodape__ImgRodape {
     padding-right: 2rem;
+}
+
+@media (max-width: 600px) {
+    .menu {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .menu__navegacao {
+        gap: 1.5rem;
+    }
 }
