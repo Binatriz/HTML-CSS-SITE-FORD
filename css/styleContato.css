@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: start;
     padding-top: 2rem;
+    width: 100%;
 }
 
 .contato img {
@@ -26,13 +27,8 @@ h2 {
     font-size: 2rem;
 }
 
-input {
-    border-radius: 0.5rem;
-    width: 20rem;
-    height: 2rem;
-}
-
-select {
+input, select {
+    width: 100%;
     border-radius: 0.5rem;
     width: 20rem;
     height: 2rem;
@@ -40,7 +36,10 @@ select {
 
 #contato__formulario__mensagem {
     height: 15rem;
+    width: 20rem;
     text-align: start;
+    border-radius: 5%;
+    font-size: 1rem;
 }
 
 .contato__formulario__botao {
