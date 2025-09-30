@@ -5,6 +5,7 @@ body {
 }
 
 .conteudo__video {
+    padding-top: 0.5%;
     width: 100%;
     aspect-ratio: 16/9;
     max-height: 500px;
@@ -12,21 +13,20 @@ body {
 
 .conteudo__tabela {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 1rem;
     width: 100%;
 }
 
 table {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
+    
 }
 
 .conteudo__tabela__info {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     gap: 1rem;
 }
@@ -44,16 +44,7 @@ u {
     color: #1351d8;
 }
 
-.conteudo__tabela__botao {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.conteudo__tabela__botao button {
+button {
     width: 100%;
     max-width: 15em;
     height: auto;
@@ -76,7 +67,15 @@ u {
     .conteudo__tabela {
         flex-direction: column;
     }
-    table{
+
+    .conteudo__tabela__info {
         flex-direction: column;
+        align-items: center;
+    }
+
+    table {
+        width: 100%;
+        /* deixe como display: table ou padrão */
+        display: table;
     }
 }
