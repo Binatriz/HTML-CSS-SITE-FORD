@@ -13,6 +13,9 @@ body {
     height: 100%;
 }
 
+main{
+    padding-bottom: 6rem;
+}
 .menu {
     display: flex;
     flex-direction: row;
@@ -98,6 +101,10 @@ body {
 
     .menu__navegacao {
         gap: 1.5rem;
+    }
+
+    body {
+        padding-bottom: 10rem;
     }
 }
 

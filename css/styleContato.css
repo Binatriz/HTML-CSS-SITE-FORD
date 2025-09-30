@@ -48,6 +48,9 @@ input, select {
 }
 
 .contato__formulario__botao button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 0;
     width: 10rem;
     height: 2.5rem;
@@ -60,4 +63,15 @@ input, select {
 
 .contato__formulario__botao button:hover {
     background-color: #0f1f42;
+}
+
+@media (max-width: 715px){
+    main {
+        padding-bottom: 10rem;
+    }
+    .contato{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
