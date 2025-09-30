@@ -21,7 +21,9 @@ body {
 }
 
 table {
-    
+    display: flex;
+    flex-direction: row;
+    border-spacing: 1rem;
 }
 
 .conteudo__tabela__info {
@@ -65,17 +67,14 @@ button {
 
 @media (max-width: 1056px) {
     .conteudo__tabela {
-        flex-direction: column;
+        
     }
 
     .conteudo__tabela__info {
-        flex-direction: column;
-        align-items: center;
+        
     }
 
     table {
-        width: 100%;
-        /* deixe como display: table ou padrão */
-        display: table;
+
     }
 }

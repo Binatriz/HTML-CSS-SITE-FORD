@@ -45,15 +45,15 @@ input, select {
 .contato__formulario__botao {
     display: flex;
     justify-content: end;
-
 }
 
 .contato__formulario__botao button {
+    border: 0;
     width: 10rem;
     height: 2.5rem;
-    border: 0;
     border-radius: 0.8rem;
     background-color: #1351d8;
+    text-align: center;
     color: white;
     transition: background-color 0.2s ease;
 }
