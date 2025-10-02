@@ -1,28 +1,31 @@
 @import url(style.css);
 
-body {
-    min-height: 100%;
-}
-
 .conteudo__video {
     padding-top: 0.5%;
     width: 100%;
     aspect-ratio: 16/9;
     max-height: 500px;
+    padding-bottom: 1%;
+}
+
+#conteudo__descricao {
+    padding-bottom: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1351d8;
 }
 
 .conteudo__tabela {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
     width: 100%;
+    overflow-x: auto;
+    padding-bottom: 1%;
 }
 
 table {
-    display: flex;
-    flex-direction: row;
+    width: max-content;
+    margin: 0 auto;
+    border-collapse: collapse;
     border-spacing: 1rem;
 }
 
@@ -38,8 +41,10 @@ table {
 }
 
 .conteudo__tabela__info img {
-    width: auto;
-    height: 1.5rem;
+    height: 2rem;
+    max-width: 100%;
+    object-fit: contain;
+    display: block;
 }
 
 u {
@@ -72,11 +77,17 @@ u {
 }
 
 @media (max-width: 1056px) {
+    table {
+        margin: 0 auto;
+    }
     .conteudo__tabela {
-        padding-bottom: 2rem;
+        padding-bottom: 2.5rem;
     }
 
-    table {
-
+    .conteudo__tabela__info img {
+        height: 2rem;
+        max-width: 100%;
+        object-fit: contain;
+        display: block;
     }
 }
