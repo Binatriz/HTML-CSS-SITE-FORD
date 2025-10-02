@@ -19,7 +19,6 @@
 .conteudo__tabela {
     width: 100%;
     overflow-x: auto;
-    padding-bottom: 1%;
 }
 
 table {
@@ -56,6 +55,7 @@ u {
     justify-content: center;
     align-items: center;
     width: 100%;
+    padding-top: 2%;
 }
 
 .conteudo__tabela__botao button {
