@@ -27,7 +27,8 @@ h2 {
     font-size: 2rem;
 }
 
-input, select {
+input,
+select {
     width: 100%;
     border-radius: 0.5rem;
     width: 20rem;
@@ -65,11 +66,12 @@ input, select {
     background-color: #0f1f42;
 }
 
-@media (max-width: 715px){
+@media (max-width: 715px) {
     main {
         padding-bottom: 10rem;
     }
-    .contato{
+
+    .contato {
         flex-direction: column;
         justify-content: center;
         align-items: center;

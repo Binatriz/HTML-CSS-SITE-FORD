@@ -13,9 +13,10 @@ body {
     height: 100%;
 }
 
-main{
+main {
     padding-bottom: 6rem;
 }
+
 .menu {
     display: flex;
     flex-direction: row;
