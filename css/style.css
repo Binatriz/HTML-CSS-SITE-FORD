@@ -111,7 +111,7 @@ main {
 
 @media (max-width: 375px) {
     body {
-        min-width: 375px;
+        min-width: 360px;
     }
     main{
         padding-bottom: 40%;
